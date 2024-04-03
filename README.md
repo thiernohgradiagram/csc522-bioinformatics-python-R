@@ -1,11 +1,11 @@
 # csc522-bioinformatics-python-R
 I am building a bioinformatics pipeline with python, R and snakemake
 
-snakemake best practice > https://snakemake.readthedocs.io/en/stable/snakefiles/best_practices.html
-uri vpn                 > https://its.uri.edu/itsec/vpn-enrollment/
-snakemake-tutorial      > https://snakemake.readthedocs.io/en/stable/tutorial/basics.html                  
+* snakemake best practice > https://snakemake.readthedocs.io/en/stable/snakefiles/best_practices.html
+* uri vpn                 > https://its.uri.edu/itsec/vpn-enrollment/
+* snakemake-tutorial      > https://snakemake.readthedocs.io/en/stable/tutorial/basics.html                  
 
-Installation && setup 
+## Installation && setup 
     Install a conda-based python3 distribution.
     The recommended conda-based python 3 distribution is Mambaforge, which comes with the required commands for python, and the required commands for the conda, mamba package managers.
     It is recommended to always use the mamba package manager instead of conda.
