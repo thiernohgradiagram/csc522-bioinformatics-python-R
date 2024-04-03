@@ -48,6 +48,13 @@ Installation && setup
     Create an environment with the required software
     mamba env create --name snakemake-tutorial --file environment.yaml
 
+    Activate the environment with mamba
+    mamba activate snakemake-tutorial
+    snakemake --help
+    mamba deactivate
+
+
+
 
 
 
