@@ -53,6 +53,23 @@ I am building a bioinformatics pipeline with python, R and snakemake
     snakemake --help
     mamba deactivate
 
+    https://www.youtube.com/watch?v=8m6hHRlKwxY
+    https://marketplace.visualstudio.com/items?itemName=Snakemake.snakemake-lang
+    https://marketplace.visualstudio.com/items?itemName=ms-vscode.remote-explorer
+    
+    
+    SNAKEMAKE
+    This part of the documentation describes the snakemake executable. Snakemake is primarily a command-line tool, so the snakemake executable is the primary way to execute, debug, and visualize workflows.
+    Snakemake caches source files for performance and reproducibility.
+    If you want to change the CACHE location on a unix/linux system, you can define an override path via the environment variable XDG_CACHE_HOME. When running jobs in parallel, 
+    snakemake can automatically determine which part of the workflow can be executed in parallel.
+    
+    snamake --cores 1       > use 1 core
+    snakemake --cores 4     > use up to 4 cores
+    snakemake --cores       > use up to the number of available CPU cores in your system
+    -s > to specify the snakefile 
+    -n > dry run
+
 
 
 
