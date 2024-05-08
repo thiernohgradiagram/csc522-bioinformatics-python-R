@@ -161,3 +161,6 @@ cython_debug/
 
 # ignore the data folder
 data/
+mapped_reads/
+sorted_reads/
+trimmed/
